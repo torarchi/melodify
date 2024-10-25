@@ -82,7 +82,3 @@ curl http://localhost:8080/predictions/get?id=YOUR_PREDICTION_ID
 
 - `REPLICATE_API_TOKEN` - токен для доступа к API Replicate
 - `SERVER_PORT` - порт для HTTP сервера (по умолчанию 8080)
-
-## 📄 Лицензия
-
-MIT License
