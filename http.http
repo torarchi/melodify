@@ -1,0 +1,14 @@
+### Create Prediction
+POST http://localhost:8080/predictions
+Content-Type: application/json
+
+{
+  "prompt_b": "90s rap",
+  "version": "8cf61ea6c56afd61d8f5b9ffd14d7c216c0a93844ce2d82ac1c9ecc9c7f24e05"
+}
+
+### Get Prediction
+GET http://localhost:8080/predictions/get?id={{predictionId}}
+
+### List Predictions
+GET http://localhost:8080/predictions
